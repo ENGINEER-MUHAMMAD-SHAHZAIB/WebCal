@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Dark background around the calculator */
+    color: #ffffff;
+}
+
+.calculator-container {
+    background-color: #333333; /* Dark background for the calculator */
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.calculator-header {
+    font-size: 1.5rem;
+    color: #ffffff; /* White text for the header */
+    margin-bottom: 20px;
+}
+
+.calculator-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-bottom: 25px;
+}
+
+.result-display {
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #4CAF50; /* Light circle for display background */
+    width: 60px;
+    height: 50px;
+    border-radius: 60%; /* Circle shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0e0e0; /* Light gray for buttons */
+    color: #333333; /* Dark text for buttons */
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #d0d0d0; /* Slightly darker on hover */
+}
+
+button:active {
+    background-color: #c0c0c0; /* Darker shade on button press */
+}
+
+#expression {
+    font-size: 2rem; /* Increase the font size */
+    text-align: right; /* Align the text to the right */
+    color: #FFFFFF; /* Dark color for the input text */
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove border */
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin-bottom: 10px;
+}
