@@ -1,6 +1,4 @@
-Here's the formatted content for your `README.md` file for GitHub:
 
-```markdown
 # WebCal - A Web-Based Calculator
 
 **WebCal** is a lightweight and user-friendly web-based calculator designed to perform basic arithmetic operations directly in your browser. Whether you're performing quick calculations or need an efficient tool for basic math tasks, WebCal provides a seamless experience.
@@ -82,4 +80,3 @@ We welcome contributions to improve WebCal! Here's how you can contribute:
 Please ensure that your code follows the existing coding conventions, includes necessary tests, and has appropriate documentation.
 ```
 
-This Markdown will look professional and be well-formatted on GitHub.
