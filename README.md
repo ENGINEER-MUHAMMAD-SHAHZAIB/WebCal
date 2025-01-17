@@ -13,37 +13,54 @@
 
 Follow these steps to get **WebCal** up and running on your local machine:
 
-### 1. Clone the Repository
-Clone this repository to your local machine using Git:
+### Prerequisites
+Before running the application, make sure you have the following installed on your system:
 
-```bash
-git clone https://github.com/ENGINEER-MUHAMMAD-SHAHZAIB/WebCal.git
-```
+1. **Python**: Ensure Python is installed on your machine. You can download it from [here](https://www.python.org/downloads/).
 
-### 2. Navigate to the Project Directory
-Once the repository is cloned, navigate into the project directory:
+   To check if Python is installed, run the following command in your command prompt:
+   ```bash
+   python --version
+   ```
 
-```bash
-cd WebCal
-```
+2. **Install required dependencies**: This project requires the Flask library. You can install it using pip:
+   ```bash
+   pip install flask
+   ```
 
-### 3. Open the Project in a Browser
-Open the `index.html` file in any modern web browser (e.g., Chrome, Firefox, Safari). No installation or server setup is required.
+### Running the Application
+Follow these steps to run the application:
 
-Simply double-click the `index.html` file to launch WebCal in your browser!
+1. **Download or Clone the repository**: Download the ZIP file of the project and extract it, or clone it using the following command:
+   ```bash
+   git clone https://github.com/your-repository-link/WebCal.git
+   ```
 
-## How to Run
-- **Launch WebCal**: Open the `index.html` file in your browser. The calculator interface will appear immediately.
-- **Perform Calculations**: Click on the calculator buttons to perform arithmetic operations like addition, subtraction, multiplication, and division.
-- **Clear the Screen**: To reset the display and start a new calculation, click the **C** button.
+2. **Open Command Prompt (CMD)**: Open the command prompt and navigate to the directory where you extracted or cloned the project. For example, navigate to:
+   ```bash
+   C:\Users\CLIENT COMPUTER\Downloads\Compressed\WebCal-master\WebCal-master
+   ```
 
-## Technologies Used
-- **HTML**: Structure and layout of the calculator.
-- **CSS**: Styling and responsive design.
-- **JavaScript**: Handles calculator functionality and interactions.
+3. **Run the application**: In the command prompt, run the following command to start the Flask server:
+   ```bash
+   python app.py
+   ```
 
-## Demo
-Check out the live demo (if applicable) here: [WebCal Demo](#)
+4. **Access the Application**: The Flask app will start running and you should see the following output:
+   ```
+   * Serving Flask app 'app'
+   * Debug mode: on
+   WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+   * Running on http://127.0.0.1:5000
+   Press CTRL+C to quit
+   * Restarting with stat
+   * Debugger is active!
+   * Debugger PIN: 707-870-846
+   ```
+
+   Now, open your browser and go to `http://127.0.0.1:5000` to view the application.
+
+5. **Stop the Application**: To stop the Flask server, press `CTRL+C` in the command prompt.
 
 ## Contribution Guidelines
 We welcome contributions to improve WebCal! Here's how you can contribute:
@@ -51,32 +68,33 @@ We welcome contributions to improve WebCal! Here's how you can contribute:
 ### Steps to Contribute:
 1. **Fork the repository**: Click the "Fork" button at the top right of the repository page.
 2. **Clone your fork**: Clone the repository to your local machine using the following command:
-
-    ```bash
-    git clone https://github.com/your-username/WebCal.git
-    ```
+   ```bash
+   git clone https://github.com/your-username/WebCal.git
+   ```
 
 3. **Create a new branch**: Create a new branch for your feature or fix:
-
-    ```bash
-    git checkout -b feature-name
-    ```
+   ```bash
+   git checkout -b feature-name
+   ```
 
 4. **Make your changes**: Edit the code and implement your changes.
 5. **Commit your changes**: Commit your changes with a descriptive message:
-
-    ```bash
-    git commit -am 'Add new feature or fix'
-    ```
+   ```bash
+   git commit -am 'Add new feature or fix'
+   ```
 
 6. **Push your changes**: Push the changes to your forked repository:
-
-    ```bash
-    git push origin feature-name
-    ```
+   ```bash
+   git push origin feature-name
+   ```
 
 7. **Create a Pull Request**: Open a pull request on the original repository for review.
 
 Please ensure that your code follows the existing coding conventions, includes necessary tests, and has appropriate documentation.
+
+---
+
+Feel free to replace the placeholder URLs with your actual repository link where necessary!
 ```
 
+This version of the README file includes all the details, including installation, running the app, and contributing guidelines.
